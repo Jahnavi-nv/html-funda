@@ -1,5 +1,46 @@
 h1{
-    color:aqua;
-    font-size: 30pt;
+    color:rgb(126, 16, 49);
+    font-size: 20pt;
     font-family: monospace;
+    text-decoration: none;
+}
+body{
+    color:black;
+    font-size: 15pt;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+a{
+    font-size: 20px;
+    color:blueviolet;
+    text-decoration: none;
+}
+nav{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:rgb(221, 255, 127);
+}
+div{
+    display:flex;
+    justify-content: center;
+    border: 2px solid yellow;
+    width:50vw;
+    border-radius: 25px;
+    background-color: coral;
+}
+video{
+    display: flex;
+    height:400px;
+}
+section{
+    height: 100vh;
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+}
+div:hover {
+    scale:200%;
+    rotate: 360deg;
+    transition: all 10s;
 }
